@@ -1,0 +1,34 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# inflames 🔥
+
+The `inflames` package helps you quickly load and transform data from
+the Queimadas Database (INPE) into a user-friendly SF object. It
+leverages the power of `data.table` and `sf` for efficient data
+manipulation and spatial data handling.
+
+> **Note**: This is a **hobby project**
+
+## Installation
+
+You can install the development version of inflames from
+[GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("M3nin0/inflames")
+```
+
+## Example
+
+The primary function you’ll be using in the `inflames` package is
+`inflames_read`. This function reads data from a specified CSV file from
+the Queimadas database and converts it into an SF object. Here’s a basic
+example of how to use it:
+
+``` r
+library(inflames)
+
+sf_object <- inflames_read('path/to/queimadas/csv/data')
+```

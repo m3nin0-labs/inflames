@@ -1,0 +1,7 @@
+^inflames\.Rproj$
+^\.Rproj\.user$
+data
+^vignettes/articles$
+^LICENSE\.md$
+^\.github$
+^README\.Rmd$
